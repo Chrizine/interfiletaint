@@ -10,6 +10,6 @@ public class SinkClass {
     SourceClass sc = new SourceClass();
     String tainted = sc.get();
     SinkMethod(tainted);
-    sth("fooooo");
+    sth("foooooo");
   }
 }
